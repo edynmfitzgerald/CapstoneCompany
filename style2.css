@@ -43,7 +43,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     top: 200px;
-    left: 100px;
+    left: 70px;
     border-radius: 20px;
      font-family: 'Poiret One', sans-serif;
 }
@@ -52,7 +52,7 @@
     display: grid;
     position: absolute;
     justify-content: center;
-    column-gap: 80px;
+    column-gap: 140px;
     row-gap: 42px;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 250px 250px 250px 250px;
@@ -84,7 +84,7 @@
     position: absolute;
     top: 1500px;
     z-index: 5;
-    left: 100px;
+    left: 70px;
 }
 
 #menu{
@@ -95,7 +95,7 @@
     color: white;
 position: absolute;
 top: 120px;
-left: 500px;
+left: 550px;
 font-family: 'Poiret One';
 -webkit-text-stroke: 1px;
 }
@@ -120,5 +120,10 @@ h5:hover{
     position: absolute;
     top: 1100px;
     z-index: 5;
-    left: 100px; 
+    left: 60px; 
+}
+
+#buttondiv{
+    position: absolute;
+    top: 800px;
 }

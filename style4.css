@@ -8,7 +8,7 @@
 
 #backgroundgallery{
     background-color: rgb(37, 37, 41);
-    height: 2000px;
+    height: 2200px;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -158,7 +158,7 @@
     border: white solid 3px;
     position: absolute;
     top: 3200px;
-    left: 120px;
+    left: 60px;
 }
 
 h3{
