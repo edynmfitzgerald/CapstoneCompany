@@ -1,0 +1,124 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+  #sprinkles{
+    
+    height: 1720px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#navbar{
+    height: 100px;
+    position: sticky;
+    font-family: 'Poiret One', sans-serif;
+    -webkit-text-stroke: green 1px;
+    z-index: 7;
+}
+
+#cake{
+    width: 300px;
+    height: 250px;
+    border-radius: 60px;
+}
+
+#cover{
+    color: rgba(0, 0, 0, 0);
+}
+
+#cover:hover{
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: black;
+    height: 250px;
+    width: 300px;
+    border-radius: 60px;
+}
+
+#cakes{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(37, 37, 41);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: 200px;
+    left: 100px;
+    border-radius: 20px;
+     font-family: 'Poiret One', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 42px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px 250px;
+}
+
+#covers{
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    z-index: 2;
+}
+
+#desc{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+#flavortitle{
+    position: relative;
+    top: 20px;
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    z-index: 2;
+    -webkit-text-stroke: black 4px;
+}
+
+#footer{
+    position: absolute;
+    top: 1500px;
+    z-index: 5;
+    left: 100px;
+}
+
+#menu{
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(37, 37, 41);
+    color: white;
+position: absolute;
+top: 120px;
+left: 500px;
+font-family: 'Poiret One';
+-webkit-text-stroke: 1px;
+}
+
+#gallery{
+    position: absolute;
+    font-family: 'Poiret One';
+    -webkit-text-stroke: 1px;
+    top: 200px;
+}
+  
+h5:hover{
+    background-color: gainsboro;
+}
+  
+#cookies{
+    height: 1220px;
+    width: 100%;
+}
+
+#footer1{
+    position: absolute;
+    top: 1100px;
+    z-index: 5;
+    left: 100px; 
+}
